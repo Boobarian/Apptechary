@@ -8,19 +8,71 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apptechary/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptechary/lib/Screens/drug_details.dart" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/lib/Screens/drug_details.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptechary/lib/Screens/drug_overview.dart" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/lib/Screens/drug_overview.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptechary/lib/Screens/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/lib/Screens/home.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptechary/lib/Screens/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/lib/Screens/login.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apptechary/lib/Screens/register.dart" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/lib/Screens/register.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptechary/lib/Screens/transaction_overview.dart" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/lib/Screens/transaction_overview.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptechary/lib/components/CustomListView.dart" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/lib/components/CustomListView.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptechary/lib/components/card_drug.dart" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/lib/components/CustomCard.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptechary/lib/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/lib/constants.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptechary/lib/controllers/AuthController.dart" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/lib/controllers/AuthController.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptechary/lib/models/Users.dart" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/lib/models/UserTest.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptechary/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apptechary/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/apptechary/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/app/src/main/kotlin/com/todoey/www/todoey/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Flutter/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Flutter/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/lib/models/task.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/lib/models/task_list.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/lib/screens/add_task_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/lib/screens/tasks_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/lib/widgets/task_tile.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/lib/widgets/tasks_list.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoey/test/widget_test.dart" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -77,14 +129,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apptechary/lib/Screens/register.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+            <state relative-caret-position="-2670">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
-                <element signature="e#0#47#0" expanded="true" />
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apptechary/lib/models/UserTest.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apptechary/lib/models/User.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apptechary/lib/models/drug.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -157,7 +236,6 @@
         <option value="$PROJECT_DIR$/functions/index.js" />
         <option value="$PROJECT_DIR$/apptechary/lib/Screens/drug_details.dart" />
         <option value="$PROJECT_DIR$/apptechary/pubspec.yaml" />
-        <option value="$PROJECT_DIR$/apptechary/lib/models/drug.dart" />
         <option value="$PROJECT_DIR$/apptechary/lib/models/User.dart" />
         <option value="$PROJECT_DIR$/apptechary/lib/models/Users.dart" />
         <option value="$PROJECT_DIR$/apptechary/lib/controllers/AuthController.dart" />
@@ -167,6 +245,7 @@
         <option value="$PROJECT_DIR$/apptechary/lib/components/CustomDrawer.dart" />
         <option value="$PROJECT_DIR$/apptechary/lib/Screens/login.dart" />
         <option value="$PROJECT_DIR$/apptechary/lib/Screens/register.dart" />
+        <option value="$PROJECT_DIR$/apptechary/lib/models/drug.dart" />
       </list>
     </option>
   </component>
@@ -194,70 +273,6 @@
               <item name="apptechary" type="b2602c69:ProjectViewProjectNode" />
               <item name="apptechary" type="462c0819:PsiDirectoryNode" />
               <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apptechary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apptechary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apptechary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-              <item name="lobster" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apptechary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apptechary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apptechary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apptechary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apptechary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apptechary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apptechary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apptechary" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,14 +318,14 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\AndroidStudioProjects\apptechary\apptechary\fonts\lobster" />
-      <recent name="C:\Users\USER\AndroidStudioProjects\apptechary\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USER\AndroidStudioProjects\apptechary\android\app" />
       <recent name="C:\Users\USER\AndroidStudioProjects\apptechary\images" />
       <recent name="C:\Users\USER\AndroidStudioProjects\apptechary\lib\Authentication" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\AndroidStudioProjects\apptechary\apptechary\fonts\lobster" />
+      <recent name="C:\Users\USER\AndroidStudioProjects\apptechary\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,7 +382,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16040269" />
       <window_info id="Captures" order="1" side_tool="true" />
@@ -384,7 +398,7 @@
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" weight="0.32887402" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.24411765" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.24411765" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.34411764" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32998884" />
@@ -531,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apptechary/lib/models/drug.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apptechary/lib/controllers/AuthController.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -545,13 +552,6 @@
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apptechary/lib/models/UserTest.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -623,13 +623,6 @@
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apptechary/lib/models/User.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -705,11 +698,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apptechary/lib/Screens/register.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+        <state relative-caret-position="-2670">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apptechary/lib/models/UserTest.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apptechary/lib/models/User.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apptechary/lib/models/drug.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>

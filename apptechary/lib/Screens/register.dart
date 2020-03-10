@@ -1,12 +1,11 @@
-import 'package:apptechary/Screens/login.dart';
 import 'package:apptechary/components/RoundedButton.dart';
 import 'package:apptechary/models/User.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:cloud_functions/cloud_functions.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
+
 
 import '../constants.dart';
 
