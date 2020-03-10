@@ -1,9 +1,11 @@
 import 'package:apptechary/Screens/login.dart';
 import 'package:apptechary/components/RoundedButton.dart';
+import 'package:apptechary/models/User.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cloud_functions/cloud_functions.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 
 import '../constants.dart';
@@ -108,7 +110,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       setState(() {
                         showSpinner = true;
                       });
-                      if(_name != null && _email != null && _password != null){
+                      if(_name != null && _email != null && _password.length != null){
                         try{
                           final newUser = await _auth.createUserWithEmailAndPassword
                             (email: _email, password: _password);
@@ -116,19 +118,26 @@ class _RegisterPageState extends State<RegisterPage> {
                             String _uid;
                             _auth.currentUser().then((user){
                               _uid = user.uid;
-                              createRecord(_uid, _name);
+                              //createRecord(_uid, _name);
+                              register(_uid, _name, _email);
                             });
-                            Navigator.pushNamed(context, LoginPage.routeId);
+                            Navigator.pop(context);
                           }
 
                           setState(() {
                             showSpinner = false;
                           });
                         }catch(e){
+                          errorMessage = "Registration failed, please try again. ";
                           print(e);
+                          switch(e.runtimeType){
+                            case PlatformException: {
+                              PlatformException msg = e;
+                              errorMessage += msg.message;
+                            }
+                          }
                           setState(() {
                             showSpinner = false;
-                            errorMessage = "Registration failed, please try again";
                           });
                         }
                       }
@@ -151,13 +160,6 @@ class _RegisterPageState extends State<RegisterPage> {
                     ),
                   ),
                 ),
-                RoundedButton(
-                  title: 'Register',
-                  color: Colors.blueAccent,
-                  onPressed: () {
-
-                  },
-                ),
               ],
             ),
           ),
@@ -174,5 +176,11 @@ class _RegisterPageState extends State<RegisterPage> {
       'phoneNumber': notSet,
       'address': notSet
     });
+  }
+
+  void register(uid, name, email){
+    User user = new User(uid, name, email, 'not set', 'not set');
+    final firestore = Firestore.instance;
+    firestore.collection(userRef).add(user.toJson());
   }
 }

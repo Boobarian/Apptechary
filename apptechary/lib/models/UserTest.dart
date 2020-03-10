@@ -1,8 +1,8 @@
 import 'dart:collection';
 
-class User{
+class UserTest{
   HashMap<String, Object> fields;
-  User(uid, name, address, phone){
+  UserTest(uid, name, address, phone){
     fields = HashMap();
   }
   void setUser(uid, name, email, address, phone){

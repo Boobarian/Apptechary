@@ -1,6 +1,6 @@
 import 'package:apptechary/components/CustomFloatingActionButton.dart';
 import 'package:apptechary/components/CustomListView.dart';
-import 'package:apptechary/components/card_drug.dart';
+import 'package:apptechary/components/CustomCard.dart';
 import 'package:apptechary/constants.dart';
 import 'package:apptechary/models/druglist.dart';
 import 'package:flutter/material.dart';
@@ -24,7 +24,7 @@ class _DrugOverviewPageState extends State<DrugOverviewPage> {
         label: 'Add New Drug',
         onPressed: (){
           setState(() {
-            drugList.add('lmao');
+            drugList.add('');
           });
         },
       ),

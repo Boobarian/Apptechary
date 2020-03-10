@@ -8,6 +8,6 @@ class TransactionOverviewPage extends StatefulWidget {
 class _TransactionOverviewPageState extends State<TransactionOverviewPage> {
   @override
   Widget build(BuildContext context) {
-    return Text('Drugstore transaction list will be displayed here');
+    return Center(child: Text('Drugstore transaction list will be displayed here'));
   }
 }

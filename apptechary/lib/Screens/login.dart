@@ -2,7 +2,7 @@ import 'package:apptechary/Screens/home.dart';
 import 'package:apptechary/Screens/register.dart';
 import 'package:apptechary/components/RoundedButton.dart';
 import 'package:apptechary/constants.dart';
-import 'package:apptechary/debugLog.dart';
+import 'package:apptechary/controllers/AuthController.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
@@ -14,6 +14,7 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage>{
+  String _uid;
   String _email;
   String _password;
   String errorMessage = '';
@@ -23,21 +24,21 @@ class _LoginPageState extends State<LoginPage>{
 
   @override
   void initState(){
+    super.initState();
     setState(() {
       showSpinner = true;
     });
-    final fuser = _auth.currentUser();
-    if(fuser is !Future<FirebaseUser>){
-      DebugLog.logInfo(fuser.toString());
-      showSpinner = false;
-      Future((){
-        Navigator.pushNamed(context, HomePage.routeId);
-      });
+    var isLoggedin = AuthController.checkUser();
+    if(isLoggedin == true){
+      print("user exists!");
+      Navigator.pushNamed(context, HomePage.routeId);
     }
     else{
-      DebugLog.logInfo('no user');
-      showSpinner = false;
+      print('user is null!');
     }
+    setState(() {
+      showSpinner = false;
+    });
   }
 
   @override
@@ -108,7 +109,7 @@ class _LoginPageState extends State<LoginPage>{
                         final fuser = await _auth.signInWithEmailAndPassword
                           (email: _email, password: _password);
                         if(fuser != null){
-                          Navigator.pushNamed(context, HomePage.routeId);
+                          Navigator.popAndPushNamed(context, HomePage.routeId);
                           setState(() {
                             showSpinner = false;
                           });
@@ -147,7 +148,7 @@ class _LoginPageState extends State<LoginPage>{
                       color: Colors.red,
                     ),
                   ),
-                )
+                ),
               ],
             ),
           ),

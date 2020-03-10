@@ -1,5 +1,5 @@
 import 'package:apptechary/Screens/drug_details.dart';
-import 'package:apptechary/components/card_drug.dart';
+import 'package:apptechary/components/CustomCard.dart';
 import 'package:flutter/material.dart';
 
 class CustomListView extends StatelessWidget {

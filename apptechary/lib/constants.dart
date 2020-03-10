@@ -48,6 +48,7 @@ const kWhiteText = TextStyle(
 
 const kLogo = CircleAvatar(
   maxRadius: 20.0,
+  backgroundColor: Colors.transparent,
   backgroundImage: AssetImage('images/logo.png'),
 );
 
